@@ -7,5 +7,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\JSGreenwell\Google Drive\Professorships\Fall2019\COP3003\ReadACSV\src\Data\BookStore.db</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="BookStore [2]" uuid="0f5adac9-104b-4344-a1bd-ff122cb2c3b6">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\VladR\OneDrive - Florida Gulf Coast University\CSVData\src\Data\BookStore.db</jdbc-url>
+    </data-source>
   </component>
 </project>

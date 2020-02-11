@@ -26,6 +26,7 @@ public class Main {
 
         for (var element : authors) {
             System.out.println(element.getName());
+            System.out.println(element.getName()+" " + element.getEmail()+ " "+ element.getUrl());
         }
     }
 }
